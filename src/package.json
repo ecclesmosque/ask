@@ -1,0 +1,26 @@
+{
+  "name": "ask-eccles-mosque",
+  "version": "1.0.0",
+  "description": "Alexa, ask Eccles Mosque",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package":"NODE_ENV=production && rm -rf node_modules && npm i --production && npm prune && npm pack"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "fact",
+    "Prayer",
+    "Times",
+    "Schedule"
+  ],
+  "author": "Azizur Rahman (@azizur)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  }
+}
