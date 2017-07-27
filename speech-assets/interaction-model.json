@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "GetNewFactIntent",
+      "samples": [
+        "For a fact",
+        "Give me a fact",
+        "Tell me a fact",
+        "Tell me something",
+        "Tell me a Eccles fact",
+        "Tell me a fact about Eccles",
+        "Give me a fact about Eccles"
+      ],
+      "slots": []
+    },
+    {
+      "name": "LocationIntent",
+      "samples": [
+        "What is the address for Eccles Mosque",
+        "Where is Eccles Mosque",
+        "How do I get to Eccles Mosque",
+        "Direction to Eccles Mosque",
+        "Where is it",
+        "How can I get to Eccles Mosque",
+        "Give direction",
+        "Give me direction",
+        "get direction",
+        "get me location",
+        "get me direction",
+        "give location",
+        "find location",
+        "find direction",
+        "find me location",
+        "find me direction",
+        "find me where",
+        "find where",
+        "location for Eccles Mosque",
+        "direction for Eccles Mosque"
+      ],
+      "slots": []
+    },
+    {
+      "name": "NextPrayerAtIntent",
+      "samples": [
+        "When is the next prayer",
+        "What time is the next prayer",
+        "When is the next prayer at Eccles Mosque",
+        "What time is the next prayer at Eccles Mosque",
+        "When is the Prayer",
+        "What time is the Prayer",
+        "When is the next salah",
+        "What time is the next salah",
+        "what time is the salah",
+        "when is the salah",
+        "when is the namaz",
+        "what time is the namaz",
+        "when is the next namaz",
+        "What time is the next namaz"
+      ],
+      "slots": []
+    },
+    {
+      "name": "TodaysPrayerTimesIntent",
+      "samples": [
+        "Today's Prayer Times",
+        "Today's Prayer Time",
+        "Todays Prayer Time",
+        "Todays Prayer Times",
+        "Todays salah time",
+        "Todays salah times",
+        "Today's salah times",
+        "Today's salah time",
+        "Daily prayer times",
+        "Daily prayer time"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "INFO_SLOT_TYPE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "location",
+            "synonyms": [
+              "where"
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "email",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "phone",
+            "synonyms": [
+              "telephone"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
