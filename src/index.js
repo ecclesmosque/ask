@@ -128,9 +128,9 @@ var PrayerTimes = {
 
 var handlers = {
   LaunchRequest: function () {
-    var speechOutput = phoneme.salam;
-    this.emit(':tell', speechOutput);
-    this.emit('AMAZON.HelpIntent');
+    var speechOutput = phoneme.salam + ' '+ HELP_MESSAGE;
+    var reprompt = HELP_REPROMPT;
+    this.emit(':ask', speechOutput, reprompt);
   },
 
   GetNewFactIntent: function () {
